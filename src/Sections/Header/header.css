@@ -1,0 +1,32 @@
+.nav__one {
+  padding-top: 4rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 8rem;
+}
+.nav__two {
+  padding-top: 3rem;
+}
+.nav__two h2 {
+  font-size: 3.5rem;
+}
+.nav__two small {
+  color: var(--Gray);
+  font-size: 1rem;
+}
+.nav__three {
+  padding-top: 1rem;
+}
+.nav__four img {
+  width: 100%;
+}
+
+/* MEDIA QUERY(TABLET) */
+
+@media (max-width: 1200px) {
+  .nav__one {
+    grid-template-columns: 100%;
+    gap: 4rem;
+  }
+}

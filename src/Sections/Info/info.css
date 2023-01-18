@@ -1,0 +1,25 @@
+.Info__one {
+  text-align: center;
+  background: url("../../Images/bg-shorten-desktop.svg");
+  background-color: var(--Dark-Violet);
+  height: 30vh;
+  padding-top: 3rem;
+}
+.Info__one h3 {
+  color: #fff;
+}
+.Info__two {
+  margin-top: 2rem;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1200px) {
+  .Info__one {
+    height: 28vh;
+  }
+}
+@media (max-width: 600px) {
+  .Info__one {
+    height: 30vh;
+  }
+}

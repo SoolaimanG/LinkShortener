@@ -1,0 +1,11 @@
+section {
+  background: var(--Gray);
+}
+.Body__one {
+  position: relative;
+  padding-top: 1rem;
+}
+.Body__three {
+  margin-top: 3rem;
+  text-align: center;
+}
